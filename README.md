@@ -121,6 +121,8 @@ Initial results are promising, but the diversity of linguistic expressions for t
 
 ### spacy_openai_relation_extraction.ipynb
 
-Two way of using the OpenAI API for information extraction were testes: 
+Two ways of using the OpenAI API for information extraction were testes: 
  * produce sentences then apply Spacy model and extract relationships 
  * use ChatGPT to extract triples (and thus relationships) 
+
+ In both cases the result is not yet satisfactory and new approaches need to be sought, either by creating a paying account on OpenAI or by using HuggingFace models
